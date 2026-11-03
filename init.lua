@@ -14,6 +14,7 @@ local apps = {
   g = "com.openai.codex",              -- ChatGPT
   w = "com.tencent.xinWeChat",        -- WeChat
   b = "com.bitwarden.desktop",
+  z = "dev.zed.Zed",                  -- Zed
 }
 for key, bundle in pairs(apps) do
   hyper:bind({}, key, function()
