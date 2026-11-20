@@ -7,11 +7,12 @@ hs.hotkey.bind({}, "f19", function() hyper:enter() end, function() hyper:exit() 
 -- Open if not running, otherwise activate
 local apps = {
   x = "com.anysphere.sand",          -- Grok Bot
-  c = "com.github.wez.wezterm",
-  s = "com.mitchellh.ghostty",
+  c = "com.google.Chrome",            -- Chrome
+  s = "com.apple.Safari",            -- Safari
+  g = "com.mitchellh.ghostty",        -- Ghostty
   f = "org.mozilla.firefox",
-  g = "com.openai.codex",              -- ChatGPT
-  w = "com.tencent.xinWeChat",        -- WeChat
+  a = "com.tencent.xinWeChat",        -- WeChat
+  w = "com.github.wez.wezterm",       -- WezTerm
   b = "com.bitwarden.desktop",
   z = "dev.zed.Zed",                  -- Zed
 }
